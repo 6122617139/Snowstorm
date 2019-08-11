@@ -1,0 +1,16 @@
+commit f08419b3054fdf7bff4c1985129b071cf090b332
+Author: ShaidK <ShaidK@Outlook.com>
+Date:   Sun Aug 11 13:12:35 2019 +0100
+
+    V0.0.0
+    
+    Initial Commit - Configure the Project Files & Folder Structure
+
+ .circleci/config.yml |   1 +
+ CHANGELOG            |   0
+ LICENSE              | 674 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ README               |   0
+ img/.git_keep        |   0
+ package.json         |   0
+ themes/.git_keep     |   0
+ 7 files changed, 675 insertions(+)

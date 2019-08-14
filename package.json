@@ -1,0 +1,37 @@
+{
+    "name":          "snowstorm-theme",
+    "description":   "A Clean & Elegant Visual Studio Code Theme",
+    "displayName":   "Snowstorm Visual Studio Code Theme",
+    "publisher":     "ShaidK",
+    "version":       "V0.1.1",
+    "qna":           "false",
+    "license":       "GNU General Public License v3.0",
+    "galleryBanner": 
+    {
+        "color": "#ffffff",
+        "theme": "light"
+    },
+    "repository": 
+    {
+        "url": "https://github.com/ShaidK/Snowstorm",
+        "type": "git"
+    },
+    "keywords": 
+    [
+        "visual studio code", 
+        "snowstorm", 
+        "light",
+        "themes", 
+        "vs-code", 
+        "vs-themes"
+    ],
+    "engines":     
+    {
+        "vscode": "^1.0.0"
+    },
+    "categories": 
+    [
+        "Themes", "Other"
+    ],
+    "homepage": "https://github.com/ShaidK/Snowstorm/blob/build/README.md"
+}

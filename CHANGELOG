@@ -1,4 +1,31 @@
-commit f08419b3054fdf7bff4c1985129b071cf090b332
+commit 5ce6b988235b5be16c6c7afaba3d48d48c306e40
+Author: ShaidK <30567635+ShaidK@users.noreply.github.com>
+Date:   Sun Aug 18 15:49:28 2019 +0100
+
+    V0.1.2
+    
+    Update Commit - Configure the '.gitignore' for the Snowstorm Visual Studio Code Theme
+    - This commit will ignore certain Files & Dependencie which shouldn't be committed
+      in Build Pipeline
+
+ .gitignore   | 10 ++++++++++
+ package.json |  2 +-
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+
+commit b7a928b191dca4742909c90465b1b2869737df2c
+Author: Shaid Khan <30567635+ShaidK@users.noreply.github.com>
+Date:   Wed Aug 14 12:42:47 2019 +0100
+
+    V0.1.1
+    
+    Update Commit - Configure the 'package.json' for the Snowstorm Visual Studio Code Theme
+    - This commit will assign the needed properties in the Visual Studio Code
+      Marketplace
+
+ package.json | 37 +++++++++++++++++++++++++++++++++++++
+ 1 file changed, 37 insertions(+)
+
+commit 24e3dcee58b8ada9b7c8f05c52d4048458f82c27
 Author: ShaidK <ShaidK@Outlook.com>
 Date:   Sun Aug 11 13:12:35 2019 +0100
 
@@ -7,10 +34,10 @@ Date:   Sun Aug 11 13:12:35 2019 +0100
     Initial Commit - Configure the Project Files & Folder Structure
 
  .circleci/config.yml |   1 +
- CHANGELOG            |   0
+ CHANGELOG            |  16 ++
  LICENSE              | 674 +++++++++++++++++++++++++++++++++++++++++++++++++++
- README               |   0
+ README.md            |   0
  img/.git_keep        |   0
  package.json         |   0
  themes/.git_keep     |   0
- 7 files changed, 675 insertions(+)
+ 7 files changed, 691 insertions(+)

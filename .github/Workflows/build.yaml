@@ -1,0 +1,27 @@
+# File: .build.yml | Note: Used to configure the GitHub Actions Build Pipeline when deploying this Project
+# Date: 10/09/2019 
+
+name: Build Snowstorm Visual Studio Code VSIX File
+on:
+    push:
+        branches:
+            - build
+
+jobs:
+    Snowstorm:
+        name: 		Build, Lint, & Package the Snowstorm Project
+        runs-on: 	windows-latest
+        steps:
+            - name: Download Snowstorm Project Files & Install Dependencies 
+                uses: actions/checkout@build
+                uses: actions/setup-node@v1
+                    with:
+                        node-version: '10.x'
+                run: npm install
+
+            - name: Lint Project Markdown & JSON Files
+                run: npm run lint
+
+            - name: Package up the VSIX File
+                run: npm run build
+

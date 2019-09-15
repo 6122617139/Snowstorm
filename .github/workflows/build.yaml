@@ -1,5 +1,5 @@
-# File: .project.yml | Note: Used to configure the GitHub Actions Build Pipeline when deploying this Project
-# Date: 08/09/2019 
+# File: .build.yml | Note: Used to configure the GitHub Actions Build Pipeline when deploying this Project
+# Date: 15/09/2019 
 
 name: Build Snowstorm Visual Studio Code VSIX File
 on:
@@ -28,5 +28,11 @@ jobs:
 
             - name: Package up the VSIX File
               run: npm run build
+
+            - name: Upload Build Artifact
+              uses: actions/upload-artifact@master
+              with:
+                  name: Snowstorm-VSIX
+                  path: d:\a\Snowstorm\Snowstorm\snowstorm-theme.vsix
 
 

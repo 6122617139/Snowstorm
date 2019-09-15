@@ -3,7 +3,7 @@
     "description": "A Clean & Elegant Visual Studio Code Theme",
     "displayName": "Snowstorm Visual Studio Code Theme",
     "publisher": "ShaidK",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "qna": "false",
     "license": "GNU General Public License v3.0",
     "galleryBanner": {
@@ -39,6 +39,7 @@
         "list": "vsce ls",
         "lint": "npm-run-all lint:*",
         "lint:md": "remark .",
+        "lint:yaml": "yamllint .\\.github\\workflows\\*.yaml",
         "lint:json": "jsonlint .\\themes\\snowstorm-theme.json -t 4"
     },
     "dependencies": {

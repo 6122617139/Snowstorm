@@ -1,20 +1,28 @@
 {
-    "name": "snowstorm-theme",
-    "description": "A Clean & Elegant Visual Studio Code Theme",
-    "displayName": "Snowstorm Visual Studio Code Theme",
-    "publisher": "ShaidK",
-    "version": "0.2.3",
-    "qna": "false",
-    "license": "GNU General Public License v3.0",
-    "galleryBanner": {
-        "color": "#ffffff",
-        "theme": "light"
+    "name":         "snowstorm-theme",
+    "homepage":     "https://github.com/ShaidK/Snowstorm/blob/build/README.md",
+    "description":  "A Clean & Elegant Visual Studio Code Theme",
+    "displayName":  "Snowstorm Visual Studio Code Theme",
+    "publisher":    "ShaidK",
+    "version":      "0.2.4",
+    "qna":          "false",
+    "license":      "GNU General Public License v3.0",
+    "galleryBanner": 
+    {
+        "color": "#FFFFFF", "theme": "light"
     },
-    "repository": {
+    "author": 
+    {
+        "url":  "https://github.com/ShaidK",
+        "name": "Shaid Khan"
+    },
+    "repository": 
+    {
         "url": "https://github.com/ShaidK/Snowstorm",
         "type": "git"
     },
-    "bugs": {
+    "bugs": 
+    {
         "url": "https://github.com/ShaidK/Snowstorm/issues"
     },
     "keywords": [
@@ -22,33 +30,34 @@
         "snowstorm",
         "light",
         "themes",
-        "vs-code",
-        "vs-themes"
+        "white"
     ],
-    "engines": {
+    "engines": 
+    {
         "vscode": "^1.0.0"
     },
-    "categories": [
-        "Themes",
-        "Other"
+    "categories": 
+    [
+        "Themes", "Other"
     ],
-    "scripts": {
-        "package": "vsce package -o snowstorm-theme.vsix",
-        "build": "npm-run-all -s clean package list",
-        "clean": "del *.vsix",
-        "list": "vsce ls",
-        "lint": "npm-run-all lint:*",
-        "lint:md": "remark .",
+    "scripts": 
+    {
+        "package":   "vsce package -o snowstorm-theme.vsix",
+        "build":     "npm-run-all -s clean package list",
+        "lint":      "npm-run-all lint:*",
+        "clean":     "del *.vsix",
+        "list":      "vsce ls",
+        "lint:md":   "remark .",
         "lint:yaml": "yamllint .\\.github\\workflows\\*.yaml",
         "lint:json": "jsonlint .\\themes\\snowstorm-theme.json -t 4"
     },
-    "dependencies": {
-        "ci": "^1.0.0",
-        "jsonlint": "^1.6.3",
+    "dependencies": 
+    {
         "npm-run-all": "^4.1.5",
-        "remark-cli": "^7.0.0",
-        "vsce": "^1.66.0",
-        "yaml-lint": "^1.2.4"
-    },
-    "homepage": "https://github.com/ShaidK/Snowstorm/blob/build/README.md"
-}
+        "remark-cli":  "^7.0.0",
+        "jsonlint":    "^1.6.3",
+        "vsce":        "^1.66.0",
+        "ci":          "^1.0.0",
+        "yaml-lint":   "^1.2.4"
+    }
+} 

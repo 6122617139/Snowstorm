@@ -98,7 +98,6 @@
 		"editorGroupHeader.noTabsBackground":          "#FFFFFF",
 		"editorGroupHeader.tabsBorder":                "#FFFFFF",
 
-
 		"editorLineNumber.activeForeground":           "#348EC7",
 		"editorLineNumber.foreground":                 "#5B6063",
 		"editor.background":                           "#FFFFFF",
@@ -147,6 +146,18 @@
 		"menu.selectionForeground":                    "#348EC7",
 		"menu.selectionBackground":                    "#E2F4FF",
 		"menu.selectionBorder":                        "#E2F4FF",
+
+		"notificationsWarningIcon.foreground":         "#004F1F",
+		"notificationsErrorIcon.foreground":           "#C80000",
+		"notificationsInfoIcon.foreground":            "#348EC7",
+		"notificationToast.border":                    "#FFFFFF",
+		"notifications.foreground":                    "#5B6063",
+		"notifications.background":                    "#FFFFFF",
+		"notifications.border":                        "#FFFFFF",
+		"notificationLink.foreground":                 "#348EC7",
+		"notificationCenter.border":                   "#FFFFFF",
+		"notificationCenterHeader.foreground":         "#348EC7",
+		"notificationCenterHeader.background":         "#FFFFFF",
 
 		"extensionButton.prominentForeground":         "#FFFFFF",
 		"extensionButton.prominentBackground":         "#348EC7",

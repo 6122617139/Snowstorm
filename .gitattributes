@@ -1,0 +1,11 @@
+# File: .gitattributes | Note: Used to specify additional respository actions & options
+# Date: 02/11/2019 
+
+# NOTE: Used to recognise the specified respository language type
+*.json linguist-detectable=true
+
+# NOTE: Used to prevent exporting unrequired files 
+.gitattributes export-ignore
+.gitignore export-ignore
+
+.vscodeignore export-ignore

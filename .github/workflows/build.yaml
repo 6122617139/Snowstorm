@@ -1,11 +1,13 @@
 # File: .build.yml | Note: Used to configure the GitHub Actions Build Pipeline when deploying this Project
-# Date: 15/09/2019 
+# Date: 20/11/2019 
 
 name: Build Snowstorm Visual Studio Code VSIX File
 on:
     push:
         branches:
             - build
+    pull_request:
+        types: [ assigned, opened ]
 
 jobs:
     Snowstorm:

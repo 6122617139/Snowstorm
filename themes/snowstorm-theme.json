@@ -1,5 +1,7 @@
 {
-	"workbench.colorCustomizations": 
+	"$schema": "vscode://schemas/color-theme",
+	"type": "light",
+	"colors": 
 	{
 		"focusBorder":                                       "#FFFFFF",
 		"foreground":                                        "#5B6063",
@@ -676,7 +678,15 @@
 		{
 			"scope": "emphasis",
 			"settings": {
-				"foreground": "#5B6063"
+				"foreground": "#5B6063",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "strong",
+			"settings": {
+				"foreground": "#5B6063",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -731,6 +741,102 @@
 			"scope": "variable",
 			"settings": {
 				"foreground": "#004d74"
+			}
+		},
+		{
+			"scope": "markup",
+			"settings": {
+				"foreground": "#5B6063"
+			}
+		},
+		{
+			"scope": "markup.bold",
+			"settings": {
+				"foreground": "#0097A7"
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings": {
+				"foreground": "#0097A7"
+			}
+		},
+		{
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#0097A7"
+			}
+		},
+		{
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#013817"
+			}
+		},
+		{
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#013817"
+			}
+		},
+		{
+			"scope": "markup.list.numbered",
+			"settings": {
+				"foreground": "#013817"
+			}
+		},
+		{
+			"scope": "markup.list.unnumbered",
+			"settings": {
+				"foreground": "#013817"
+			}
+		},
+		{
+			"scope": "markup.other",
+			"settings": {
+				"foreground": "#0097A7"
+			}
+		},
+		{
+			"scope": "markup.raw",
+			"settings": {
+				"foreground": "#013817"
+			}
+		},
+		{
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#013817"
+			}
+		},
+		{
+			"scope": "markup.underline",
+			"settings": {
+				"foreground": "#004d74"
+			}
+		},
+		{
+			"scope": "markup.underline.link",
+			"settings": {
+				"foreground": "#004d74"
+			}
+		},
+		{
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#C80000"
+			}
+		},
+		{
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#348EC7"
+			}
+		},
+		{
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#0097A7"
 			}
 		}
 	]

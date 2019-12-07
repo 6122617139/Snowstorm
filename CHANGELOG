@@ -1,6 +1,21 @@
-commit 00a89282f4eddbc2b6c3930150922af7eda1e652
+commit e4f304c69361214817a7d9b19e698010545f0e49
 Author: ShaidK <30567635+ShaidK@users.noreply.github.com>
-Date:   Sun Dec 1 21:01:07 2019 +0000
+Date:   Sat Dec 7 20:02:34 2019 +0000
+
+    V0.3.5
+    
+    Update Commit - Updating the final changes into the Snowstorm Theme File & Updated the CI Build File
+    - Updated the 'snowstorm-theme.json' File with final Theme Changes & added VS Code Schema
+    - Updated CI YAML File to only build PR which are opened only
+
+ .github/workflows/build.yaml |   4 +-
+ package.json                 |   2 +-
+ themes/snowstorm-theme.json  | 110 ++++++++++++++++++++++++++++++++++++++++++-
+ 3 files changed, 111 insertions(+), 5 deletions(-)
+
+commit 1760396b8cc35f7c849cba7f8f8120e60cb80391
+Author: Shaid Khan <30567635+ShaidK@users.noreply.github.com>
+Date:   Sun Dec 1 21:09:29 2019 +0000
 
     V0.3.4
     
@@ -8,9 +23,10 @@ Date:   Sun Dec 1 21:01:07 2019 +0000
     - This commit will leave our some colour coding standard which require further
       analysis
 
+ CHANGELOG                   | Bin 16742 -> 8694 bytes
  package.json                |   2 +-
  themes/snowstorm-theme.json | 305 ++++++++++++++++++++++++++++++++++++++++----
- 2 files changed, 280 insertions(+), 27 deletions(-)
+ 3 files changed, 280 insertions(+), 27 deletions(-)
 
 commit dff0fe1f3d3e313f1089f21867d9caf2e41342d9
 Author: Shaid Khan <30567635+ShaidK@users.noreply.github.com>

@@ -23,18 +23,24 @@ jobs:
                   node-version: '10.x'
 
             - name: Install the NodeJS Dependencies & Files
-              run: npm install
+              run:  npm install
 
             - name: Lint Project Markdown & JSON Files
-              run: npm run lint
+              run:  npm run lint
 
             - name: Package up the VSIX File
-              run: npm run build
+              run:  npm run build
 
             - name: Upload Build Artifact
               uses: actions/upload-artifact@master
               with:
                   name: Snowstorm-VSIX
-                  path: d:\a\Snowstorm\Snowstorm\snowstorm-theme.vsix
+                  path: d:\a\Snowstorm\Snowstorm\snowstorm-color-theme.vsix
+
+            - name: Publish Snowstorm Theme to Visual Studio Code Marketplace
+              if:   github.ref == 'refs/heads/build'
+              env: 
+                  VS_CODE_SECRET: ${{ secrets.SNOWSTORM_VISUAL_STUDIO_CODE }}
+              run:  vcse publish -p $VS_CODE_SECRET
 
 

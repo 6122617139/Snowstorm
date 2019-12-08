@@ -1,0 +1,19 @@
+// File: launch.json | Note: Used to configure & debug the Visual Studio Code Extensions File 
+// Date: 08/12/2019
+
+{
+	"version": "0.2.0",
+    "configurations": 
+    [
+        {
+            "name": "Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": 
+            [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ]
+        }
+    ]
+}

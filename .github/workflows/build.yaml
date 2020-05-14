@@ -22,6 +22,15 @@ jobs:
               with:
                   node-version: '10.x'
 
+            - name: Integrate Node Modules Cache
+              uses: actions/cache@v1
+              env:
+                  cache-name: node-module-cache
+              with:
+                  path: ~\AppData\Roaming\npm-cache
+                  key:  ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-key: ${{ runner.os }}-node-                  
+
             - name: Install the NodeJS Dependencies & Files
               run:  npm install
 
@@ -41,6 +50,6 @@ jobs:
               if:   github.ref == 'refs/heads/build'
               env: 
                   VS_CODE_SECRET: ${{ secrets.SNOWSTORM_VISUAL_STUDIO_CODE }}
-              run:  vcse publish -p $VS_CODE_SECRET
+              run:  vcse publish -p "$env:$VS_CODE_SECRET"
 
 

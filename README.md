@@ -1,1 +1,1 @@
-![Snowstorm](img/backdrop.png)
+![Snowstorm](img/img_backdrop.png)

@@ -48,8 +48,6 @@ jobs:
 
             - name: Publish Snowstorm Theme to Visual Studio Code Marketplace
               if:   github.ref == 'refs/heads/build'
-              env: 
-                  VS_CODE_SECRET: ${{ secrets.SNOWSTORM_VISUAL_STUDIO_CODE }}
-              run:  vcse publish -p "$env:$VS_CODE_SECRET"
+              run:  vcse publish -p ${{ secrets.SNOWSTORM_VISUAL_STUDIO_CODE }}
 
 

@@ -63,6 +63,7 @@
         "package":   "vsce package -o snowstorm-color-theme.vsix",
         "build":     "npm-run-all -s clean package list",
         "lint":      "npm-run-all lint:*",
+        "deploy":    "vsce publish -p",
         "clean":     "del *.vsix",
         "list":      "vsce ls",
         "lint:md":   "remark .",

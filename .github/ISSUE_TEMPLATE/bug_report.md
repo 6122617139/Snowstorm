@@ -1,38 +1,23 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+**INVESTIGATION**
 
----
+_Please provide a small description of the current Issue (What are you mainly seeing)_
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**DIAGNOSTIC**
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+_Here provide a more Dianostic Information which you have gather (Reference to NOTES)
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**ANALYSIS**
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+_Here provide any Research which you may have done when identifying the Issue_
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+***RESOLUTION***
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+_If you have a Propose Solution please reference the Pull Requests Here_
 
-**Additional context**
-Add any other context about the problem here.
+***LOGS***
+
+_Wihtin this section you can provide details on any Logs which 
+
+***LINKS***
+
+***FURTHER NOTES***
